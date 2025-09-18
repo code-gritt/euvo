@@ -9,8 +9,8 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "SaaS Landing Template",
-  description: "Landing Page template.",
+  title: "Euvo - Event Planning Platform",
+  description: "Plan, manage, and track your events with ease using Euvo.",
 };
 
 export default function RootLayout({
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {/* 
+        {/*
           Plausible Analytics integration for website analytics.
           Replace the data-domain and src attributes with your own Plausible setup,
           or remove this script entirely if you don't need analytics.
@@ -29,7 +29,7 @@ export default function RootLayout({
         */}
         <script
           defer
-          data-domain="saas.gonzalochale.dev"
+          data-domain="euvo.gonzalochale.dev"
           src="https://plausible.gonzalochale.dev/js/script.outbound-links.js"
         ></script>
       </head>

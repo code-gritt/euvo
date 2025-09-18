@@ -10,54 +10,49 @@ import { motion } from "framer-motion";
 export default function Faq() {
   const accordionItems = [
     {
-      title: "This template is Free?",
+      title: "Is Euvo free to use?",
       content: (
         <div className="text-muted-foreground">
-          Yes, this template is free. You can use it for personal or commercial
-          purposes.
+          Yes! Euvo offers a free plan that lets you create events, manage
+          RSVPs, and use basic calendar features. Paid plans unlock advanced
+          collaboration and analytics.
         </div>
       ),
     },
     {
-      title: "There are more templates?",
+      title: "Can I manage multiple events at once?",
       content: (
         <div className="text-muted-foreground">
-          Yes, there are more templates available. You can find them here:{" "}
-          <a
-            href="https://x.com/gonzalochale"
-            target="_blank"
-            rel="noreferrer"
-            className="text-primary underline"
-          >
-            gonzalochale.dev
-          </a>
+          Absolutely. Euvo allows you to organize and track multiple events
+          simultaneously, with real-time RSVP updates and notifications for each
+          event.
         </div>
       ),
     },
     {
-      title: "How can I use this template?",
+      title: "Can I notify attendees automatically?",
       content: (
         <div className="text-muted-foreground">
-          You can use this template by cloning it from{" "}
+          Yes, Euvo includes automated email and notification tools to keep your
+          attendees informed about updates, reminders, and last-minute changes.
+        </div>
+      ),
+    },
+    {
+      title: "How can I get support or contribute?",
+      content: (
+        <div className="text-muted-foreground">
+          You can reach out to our support team directly through the app. If
+          you&apos;d like to contribute to Euvo&apos;s development, check our{" "}
           <a
             href="https://github.com/gonzalochale/nextui-saas-landing-template"
             className="text-primary underline"
             target="_blank"
             rel="noreferrer"
           >
-            GitHub
-          </a>
-          .
-        </div>
-      ),
-    },
-    {
-      title: "How can I contribute to this template?",
-      content: (
-        <div className="text-muted-foreground">
-          You can contribute to this template by forking it on GitHub and
-          submitting a pull request. You can also report any issues or bugs you
-          encounter while using the template.
+            GitHub repository
+          </a>{" "}
+          for issues, features, or pull requests.
         </div>
       ),
     },
@@ -79,7 +74,7 @@ export default function Faq() {
           FAQ
         </h4>
         <p className="max-w-xl text-muted-foreground text-center">
-          Here are some of our frequently asked questions.
+          Frequently asked questions about organizing events with Euvo.
         </p>
       </div>
       <div className="flex w-full max-w-lg">

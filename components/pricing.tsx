@@ -9,40 +9,40 @@ import { CheckIcon } from "@radix-ui/react-icons";
 export default function Pricing() {
   const plans = [
     {
-      name: "Hobby Plan",
-      desc: "Perfect for getting started",
+      name: "Starter Plan",
+      desc: "Ideal for personal events",
       price: 0,
       isMostPop: false,
       features: [
-        "Make the best schedule",
-        "Support your team",
-        "Basic analytics",
+        "Create and manage events",
+        "Basic RSVP tracking",
+        "Simple calendar view",
       ],
     },
     {
-      name: "Pro Plan",
-      desc: "Best for growing teams",
+      name: "Team Plan",
+      desc: "Best for growing event teams",
       price: 29,
       isMostPop: true,
       features: [
-        "Everything in Hobby",
-        "Advanced team features",
-        "Priority support",
-        "Video calls",
-        "Custom integrations",
+        "Everything in Starter",
+        "Advanced team collaboration",
+        "Automated notifications",
+        "Recurring events",
+        "Custom branding",
       ],
     },
     {
       name: "Enterprise Plan",
-      desc: "For large organizations",
+      desc: "For large organizations & conferences",
       price: 99,
       isMostPop: false,
       features: [
-        "Everything in Pro",
-        "Advanced security",
-        "Custom branding",
-        "Dedicated support",
-        "SLA guarantee",
+        "Everything in Team",
+        "Dedicated account manager",
+        "Custom integrations",
+        "Priority support",
+        "Advanced analytics & reporting",
       ],
     },
   ];
@@ -60,11 +60,11 @@ export default function Pricing() {
         className="text-center mb-16 flex flex-col gap-3"
       >
         <h2 className="text-xl font-semibold sm:text-2xl bg-linear-to-b from-foreground to-muted-foreground text-transparent bg-clip-text">
-          Choose Your Plan
+          Choose Your Euvo Plan
         </h2>
         <p className="mx-auto max-w-xl text-muted-foreground text-center">
-          Select the perfect plan for your needs. Upgrade or downgrade at any
-          time.
+          Select the perfect plan for your events. Upgrade, downgrade, or scale
+          as your team grows.
         </p>
       </motion.div>
 

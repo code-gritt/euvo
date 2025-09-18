@@ -27,13 +27,14 @@ export default function Hero() {
           className="flex flex-col justify-center items-center space-y-5 max-w-4xl mx-auto text-center"
         >
           <span className="w-fit h-full text-sm bg-card px-2 py-1 border border-border rounded-full">
-            New template!
+            New Feature!
           </span>
           <h1 className="text-4xl font-medium tracking-tighter mx-auto md:text-6xl text-pretty bg-linear-to-b from-sky-800 dark:from-sky-100 to-foreground dark:to-foreground bg-clip-text text-transparent">
-            Beautiful Landing Page Template for SaaS Startups
+            Organize Events Effortlessly with Euvo
           </h1>
           <p className="max-w-2xl text-lg mx-auto text-muted-foreground text-balance">
-            Create your next landing page using this free template.
+            Plan, manage, and track events with ease. Send RSVPs, manage
+            calendars, and notify attendees&mdash;all in one platform.
           </p>
           <motion.div
             whileHover={{ scale: 1.05 }}
@@ -41,14 +42,14 @@ export default function Hero() {
           >
             <Dialog>
               <DialogTrigger asChild>
-                <Button className="shadow-lg">See more</Button>
+                <Button className="shadow-lg">See How It Works</Button>
               </DialogTrigger>
               <DialogContent>
                 <DialogHeader>
                   <DialogTitle>Gonzalo Chalé</DialogTitle>
                   <DialogDescription>
-                    I&apos;m Software Engineer from Cancún, México, always
-                    building things for the web.
+                    I&apos;m a Software Engineer from Cancún, México, always
+                    building solutions to simplify event planning on the web.
                   </DialogDescription>
                 </DialogHeader>
                 <DialogFooter>

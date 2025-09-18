@@ -50,12 +50,12 @@ export default function NavBar() {
           </div>
           <div className="flex sm:hidden">
             <Link href="/" className="font-light tracking-tighter text-lg">
-              Acme
+              Euvo
             </Link>
           </div>
           <div className="hidden sm:flex items-center space-x-8">
             <Link href="/" className="font-light tracking-tighter text-2xl">
-              Acme
+              Euvo
             </Link>
 
             <Button asChild variant="ghost" size="sm">
@@ -79,7 +79,7 @@ export default function NavBar() {
                   <div>
                     <div className="font-semibold">Autoscaling</div>
                     <div className="text-sm text-muted-foreground">
-                      ACME scales apps to meet user demand, automagically, based
+                      Euvo scales apps to meet user demand, automagically, based
                       on load.
                     </div>
                   </div>
@@ -99,7 +99,7 @@ export default function NavBar() {
                   <div>
                     <div className="font-semibold">Production Ready</div>
                     <div className="text-sm text-muted-foreground">
-                      ACME runs on ACME, join us and others serving requests at
+                      Euvo runs on Euvo, join us and others serving requests at
                       web scale.
                     </div>
                   </div>
@@ -128,24 +128,6 @@ export default function NavBar() {
             </DropdownMenu>
           </div>
           <div className="flex items-center space-x-4">
-            <Button asChild className="hidden sm:flex" size="sm">
-              <Link href="https://x.com/gonzalochale" target="_blank">
-                Connect on{" "}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="12"
-                  fill="none"
-                  viewBox="0 0 1200 1227"
-                  className="ml-1"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M714.163 519.284 1160.89 0h-105.86L667.137 450.887 357.328 0H0l468.492 681.821L0 1226.37h105.866l409.625-476.152 327.181 476.152H1200L714.137 519.284h.026ZM569.165 687.828l-47.468-67.894-377.686-540.24h162.604l304.797 435.991 47.468 67.894 396.2 566.721H892.476L569.165 687.854v-.026Z"
-                  />
-                </svg>
-              </Link>
-            </Button>
             <ThemeSwitcher />
           </div>
         </div>
@@ -181,34 +163,6 @@ export default function NavBar() {
                     </Link>
                   </motion.div>
                 ))}
-                <motion.div
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.3, delay: 0.4 }}
-                  className="pt-2 mt-2"
-                >
-                  <Link
-                    href="https://x.com/gonzalochale"
-                    target="_blank"
-                    className="flex items-center px-3 py-2 text-base font-medium text-foreground hover:bg-muted rounded-md transition-colors duration-200"
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    Connect on{" "}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="none"
-                      viewBox="0 0 1200 1227"
-                      className="ml-2"
-                    >
-                      <path
-                        fill="currentColor"
-                        d="M714.163 519.284 1160.89 0h-105.86L667.137 450.887 357.328 0H0l468.492 681.821L0 1226.37h105.866l409.625-476.152 327.181 476.152H1200L714.137 519.284h.026ZM569.165 687.828l-47.468-67.894-377.686-540.24h162.604l304.797 435.991 47.468 67.894 396.2 566.721H892.476L569.165 687.854v-.026Z"
-                      />
-                    </svg>
-                  </Link>
-                </motion.div>
               </motion.div>
             </motion.div>
           )}

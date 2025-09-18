@@ -5,42 +5,42 @@ export default function Testimonials() {
   const testimonials = [
     {
       name: "Sarah Chen",
-      role: "CEO at TechStart",
+      role: "Event Coordinator at BrightMinds",
       avatar: "https://i.pravatar.cc/150?img=1",
       content:
-        "This platform has transformed how we manage our business. The analytics features alone have saved us countless hours and improved our decision-making process significantly.",
+        "Euvo has completely simplified how we organize conferences. Sending invites and managing RSVPs is now effortless, and our attendees love the smooth experience.",
       rating: 5,
     },
     {
       name: "Marcus Rodriguez",
-      role: "Product Manager at Scale Co",
+      role: "Community Manager at Scale Co",
       avatar: "https://i.pravatar.cc/150?img=3",
       content:
-        "The integration capabilities are outstanding. We were able to connect all our existing tools seamlessly. The customer support team is also incredibly responsive and helpful.",
+        "We host dozens of meetups every year, and Euvo’s calendar sync and email reminders keep everyone aligned. No more missed updates or last-minute confusion.",
       rating: 5,
     },
     {
       name: "Emma Thompson",
-      role: "CTO at DataFlow",
+      role: "University Events Lead at DataFlow",
       avatar: "https://i.pravatar.cc/150?img=5",
       content:
-        "Security was our main concern when choosing a platform, and this solution exceeded our expectations. The encryption and compliance features give us complete peace of mind.",
+        "Managing student events used to be chaotic. With Euvo, scheduling, RSVPs, and notifications are all in one place. It’s made our workflows so much smoother.",
       rating: 5,
     },
     {
       name: "Robert Taylor",
-      role: "CTO at FinanceFlow",
+      role: "Operations Head at FinanceFlow",
       avatar: "https://i.pravatar.cc/150?img=15",
       content:
-        "Security and compliance are critical in our industry. This platform not only meets but exceeds all our regulatory requirements.",
+        "For corporate events, reliability is key. Euvo has never let us down—attendees get timely updates, and our internal team saves hours of coordination work.",
       rating: 5,
     },
     {
       name: "Maria Garcia",
-      role: "Director of Operations at StreamlineOps",
+      role: "Director of Programs at StreamlineOps",
       avatar: "https://i.pravatar.cc/150?img=17",
       content:
-        "The customer support is phenomenal. Every question gets answered quickly and thoroughly. It's like having an extended team member.",
+        "The automated notifications are a game-changer. Whether it’s reminders or last-minute changes, Euvo ensures our guests always stay informed.",
       rating: 5,
     },
     {
@@ -48,23 +48,15 @@ export default function Testimonials() {
       role: "Founder at NextGen Solutions",
       avatar: "https://i.pravatar.cc/150?img=19",
       content:
-        "We've tried many platforms, but this one stands out for its reliability and performance. Zero downtime in 18 months of usage.",
-      rating: 5,
-    },
-    {
-      name: "Sophie Anderson",
-      role: "Product Lead at InnovateLab",
-      avatar: "https://i.pravatar.cc/150?img=21",
-      content:
-        "The analytics dashboard gives us insights we never had before. Data-driven decisions have become our competitive advantage.",
+        "We’ve hosted everything from small workshops to large summits using Euvo. It scales beautifully and keeps everything running smoothly.",
       rating: 5,
     },
     {
       name: "James Wilson",
-      role: "Engineering Manager at TechBridge",
+      role: "Events Manager at TechBridge",
       avatar: "https://i.pravatar.cc/150?img=23",
       content:
-        "Migration was seamless and the onboarding process was exceptional. Our team was productive from day one.",
+        "Our transition to Euvo was seamless. The onboarding process was so easy that our team started planning events immediately without training hassles.",
       rating: 5,
     },
     {
@@ -72,15 +64,15 @@ export default function Testimonials() {
       role: "CEO at GrowthMetrics",
       avatar: "https://i.pravatar.cc/150?img=25",
       content:
-        "The platform scales beautifully with our business. From startup to enterprise, it has grown with us every step of the way.",
+        "From intimate networking dinners to full-scale conferences, Euvo adapts to our needs. It’s the only tool we trust for managing every type of event.",
       rating: 5,
     },
     {
       name: "Michael Chang",
-      role: "Head of Product at DataDriven",
+      role: "Head of Events at DataDriven",
       avatar: "https://i.pravatar.cc/150?img=27",
       content:
-        "Real-time collaboration features have transformed how our remote team works together. Productivity has increased dramatically.",
+        "Euvo has transformed how our distributed team collaborates. Real-time updates mean no more email chains—we’re always on the same page.",
       rating: 5,
     },
   ];
@@ -106,10 +98,11 @@ export default function Testimonials() {
           className="text-center mb-20 flex flex-col gap-3"
         >
           <h2 className="text-xl font-semibold sm:text-2xl bg-linear-to-b from-foreground to-muted-foreground text-transparent bg-clip-text">
-            Loved by Teams Worldwide
+            Loved by Event Teams Worldwide
           </h2>
           <p className="mx-auto max-w-xl text-muted-foreground text-center">
-            Join thousands of companies that trust our platform.
+            Thousands of organizers trust Euvo to plan, manage, and deliver
+            seamless events.
           </p>
         </motion.div>
 
